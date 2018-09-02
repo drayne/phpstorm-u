@@ -493,7 +493,7 @@
     </option>
     <option name="JS.BRACES">
       <value>
-        <option name="FOREGROUND" value="abb2b6" />
+        <option name="FOREGROUND" value="abb2ba" />
       </value>
     </option>
     <option name="JS.DOC_COMMENT">
@@ -507,6 +507,11 @@
         <option name="FOREGROUND" value="b27ecd" />
       </value>
     </option>
+    <option name="JS.DOT">
+      <value>
+        <option name="FOREGROUND" value="e895ff" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="388ee9" />
@@ -515,7 +520,7 @@
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="abb2ba" />
+        <option name="FOREGROUND" value="f7fb5a" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
