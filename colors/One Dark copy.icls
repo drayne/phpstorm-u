@@ -520,7 +520,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="de6d77" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
@@ -536,7 +536,7 @@
     </option>
     <option name="JS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="b27ecd" />
+        <option name="FOREGROUND" value="e895ff" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
