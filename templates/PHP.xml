@@ -1,0 +1,3 @@
+<templateSet group="PHP">
+  <template name="Rget" value="Route::get('', function(){&#10;    &#10;)};" description="Default route get" toReformat="false" toShortenFQNames="true" />
+</templateSet>
