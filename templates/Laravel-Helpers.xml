@@ -1,5 +1,5 @@
 <templateSet group="Laravel-Helpers">
-  <template name="@test" value="/** @test */&#10;function $testName$()&#10;{&#10;    $code$&#10;}" description="Test Snippet" toReformat="false" toShortenFQNames="true">
+  <template name="@test" value="/** @test */&#10;public function $testName$()&#10;{&#10;    $code$&#10;}" description="Test Snippet" toReformat="false" toShortenFQNames="true">
     <variable name="testName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
