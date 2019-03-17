@@ -12,5 +12,9 @@
       <display-name>i/@class</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("class")).withNamespace(string().equalTo("http://www.w3.org/1999/html")).withParent(xmlTag().withLocalName(string().equalTo("i")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
+    <injection language="Vue" injector-id="xml">
+      <display-name>input/@input</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("input")).withNamespace(string().equalTo("http://www.w3.org/1999/html")).withParent(xmlTag().withLocalName(string().equalTo("input")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
   </component>
 </application>
