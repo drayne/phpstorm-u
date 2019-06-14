@@ -1,12 +1,12 @@
 <templateSet group="moji">
-  <template name="@test" value="/** @test */&#10;function $name$()&#10;{&#10;    $test$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="@test" value="/** @test */&#10;function $name$()&#10;{&#10;    $test$&#10;}" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="puf" value="public function $name$($param$)&#10;{&#10;    $code$&#10;}" description="public function" toReformat="false" toShortenFQNames="true">
+  <template name="puf" value="public function $name$($param$)&#10;{&#10;    $code$&#10;}" description="public function" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
@@ -14,8 +14,14 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="_c" value="public function __construct($args$)&#10;{&#10;    &#10;}" description="Constructor template" toReformat="false" toShortenFQNames="true">
+  <template name="_c" value="public function __construct($args$)&#10;{&#10;    &#10;}" description="Constructor template" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="re" value="return $what$;" shortcut="ENTER" description="return" toReformat="false" toShortenFQNames="true">
+    <variable name="what" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
