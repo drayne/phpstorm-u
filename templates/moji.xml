@@ -14,7 +14,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="_c" value="public function __construct($args$)&#10;{&#10;    &#10;}" description="Constructor template" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="_c" value="public function __construct($args$)&#10;{&#10;    &#10;}" description="Constructor template" toReformat="false" toShortenFQNames="true">
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -27,6 +27,14 @@
     </context>
   </template>
   <template name="fun" value="function ($args$){&#10;    $code$&#10;}" description="Callback function" toReformat="false" toShortenFQNames="true">
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fu" value="function $name$($args$)&#10;{&#10;    $code$&#10;}" description="function" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
