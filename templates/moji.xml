@@ -20,12 +20,6 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="re" value="return $what$;" shortcut="ENTER" description="return" toReformat="false" toShortenFQNames="true">
-    <variable name="what" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
   <template name="fun" value="function ($args$){&#10;    $code$&#10;}" description="Callback function" toReformat="false" toShortenFQNames="true">
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
@@ -37,6 +31,12 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="re" value="return $value$;" description="return" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
