@@ -20,7 +20,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="fun" value="function ($args$){&#10;    $code$&#10;}" description="Callback function" toReformat="false" toShortenFQNames="true">
+  <template name="func" value="function ($args$){&#10;    $code$&#10;}" description="Callback function" toReformat="false" toShortenFQNames="true">
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
