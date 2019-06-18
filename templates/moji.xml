@@ -41,4 +41,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="dvd" value="die(var_dump($value$));" description="Die(var_dump)" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
