@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Directory '.../celanio/base [workspace]'" />
-    <option name="defaultScopeName" value="Directory '.../celanio/base [workspace]'" />
+    <option name="customScope" value="File '.../celanio/base/class.session.php [workspace]'" />
+    <option name="defaultScopeName" value="File '.../celanio/base/class.session.php [workspace]'" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '.../celanio/base [workspace]'" />
+    <option name="SEARCH_SCOPE" value="File '.../celanio/base/class.session.php [workspace]'" />
   </component>
 </application>
