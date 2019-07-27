@@ -47,7 +47,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="vc" value="Vue.component('$name$', {&#10;    template: '',&#10;    data() { return {&#10;        &#10;        }&#10;    },&#10;});" description="Vue component" toReformat="false" toShortenFQNames="true">
+  <template name="vc" value="Vue.component('$name$', {&#10;    template: '',&#10;    data() { &#10;        return {&#10;        &#10;        }&#10;    },&#10;});" description="Vue component" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
