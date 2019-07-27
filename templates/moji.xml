@@ -1,12 +1,12 @@
 <templateSet group="moji">
-  <template name="@test" value="/** @test */&#10;function $name$()&#10;{&#10;    $test$&#10;}" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="@test" value="/** @test */&#10;function $name$()&#10;{&#10;    $test$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="test" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="puf" value="public function $name$($param$)&#10;{&#10;    $code$&#10;}" description="public function" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="puf" value="public function $name$($param$)&#10;{&#10;    $code$&#10;}" description="public function" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
@@ -45,6 +45,13 @@
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vc" value="Vue.component('$name$', {&#10;    template: '',&#10;    data() { return {&#10;        &#10;        }&#10;    },&#10;});" description="Vue component" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
     </context>
   </template>
 </templateSet>
