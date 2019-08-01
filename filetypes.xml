@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping ext="sqlite" type="PLAIN_TEXT" />
-      <mapping ext="ezt" type="Smarty" />
     </extensionMap>
   </component>
 </application>
