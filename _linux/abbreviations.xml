@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="MainMenu">
+        <abbreviation name="Show main menu" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
